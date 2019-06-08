@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>tracer</title>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <input class="paginationBtn" onClick="viewMain()" type="button" value="&#8249;">
+        <input class="paginationBtn" onClick="viewTrace()" type="button" value="&#8250;">
+    </div>
+
+
+    <div id="mainDiv" style="display: block;">
+        <div class="split left">
+            <p>Tracer JSON:</p>
+            <textarea rows="25" cols="90" id="textarea1"></textarea><br />
+            <button onclick="clearFields()">Clear Fields</button>
+            <button onclick="trace()">Trace</button>
+        </div>
+    </div>
+
+    <div id="traceDiv" style="display: none;">
+        <div>
+            <table class="table1" id="t1">
+            </table>
+        </div>
+        <div>
+            <button onclick="prevButton()">prev</button>
+            <button onclick="nextButton()">next</button>
+        </div>
+
+        <div>
+            <table class="table3" id="t3">
+                <thead>
+                    <tr>
+                        <th scope="col">S. No</th>
+                        <th scope="col">s-line</th>
+                        <th scope="col">s-col</th>
+                        <th scope="col">e-line</th>
+                        <th scope="col">e-col</th>
+                        <th scope="col">type</th>
+                        <th scope="col">rule</th>
+                    </tr>
+                </thead>
+                <tbody class="tb3" id="tbody3"></tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

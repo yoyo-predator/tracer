@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>parser</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="tabs(event, 'grammar')">Create Grammar</button>
+        <button class="tablinks" onclick="tabs(event, 'execute')">Execute</button>
+        <button class="tablinks" onclick="tabs(event, 'trace')">Trace</button>
+    </div>
+
+    <div id="grammar" class="tabcontent">
+        <div class="wrap">
+            <div class="fleft">
+                <textarea id="gtextArea" rows="25" cols="80"></textarea><br />
+                <button onclick="saveGrammar()">Save</button>
+                <button onclick="clearGrammar()">Clear</button>
+                <p id="saveMessage"></p>
+            </div>
+            <div class="fright">
+                <select id="grammarSelect" onclick="selectGrammar()"></select>
+            </div>
+        </div>
+    </div>
+
+    <div id="execute" class="tabcontent">
+        <p>pending.....</p>
+    </div>
+
+    <div id="trace" class="tabcontent">
+        <div>
+            <table class="table1" id="t1">
+            </table>
+        </div>
+        <div>
+            <button onclick="prevButton()">prev</button>
+            <button onclick="nextButton()">next</button>
+        </div>
+        <div>
+            <table class="table3" id="t3">
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

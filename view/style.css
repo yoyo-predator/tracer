@@ -1,0 +1,105 @@
+button {
+    background-color: #555555;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div {
+    padding-bottom: 10px;
+}
+
+.table1 td {
+    table-layout: auto;
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 10px;
+}
+
+.table3 td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table3 {
+    border-collapse: collapse;
+    display: below;
+}
+
+tr[value="green"] {
+    border: 2px solid #80ff80;
+}
+
+tr[value="red"] {
+    border: 2px solid #ff471a;
+}
+
+tr[selected="1"] {
+    border: 2px solid #668cff;
+}
+
+td[selected="1"] {
+    border: 2px solid #668cff;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #1724BA;
+    background-color: #1724BA;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #576191;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #576191;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+.wrap {
+  width: 100%;
+  overflow:auto;
+}
+    
+.fleft {
+  float:left; 
+  width: 50%;
+  height: 500px;
+}
+    
+.fright {
+  float: right;
+  height: 500px;
+  width: 50%;
+}

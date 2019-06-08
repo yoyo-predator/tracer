@@ -1,0 +1,3861 @@
+[
+  {
+    "type": "rule.enter",
+    "rule": "start",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 1
+  },
+  {
+    "type": "rule.enter",
+    "rule": "textual_expression",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 2
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start_char",
+    "result": "a",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start",
+    "result": [
+      "a",
+      []
+    ],
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.match",
+    "rule": "additional_name_symbols",
+    "result": ".",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start_char",
+    "result": "b",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part_char",
+    "result": "b",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part",
+    "result": [
+      "b"
+    ],
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.match",
+    "rule": "additional_name_symbols",
+    "result": ".",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start_char",
+    "result": "c",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part_char",
+    "result": "c",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part",
+    "result": [
+      "c"
+    ],
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.fail",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 2
+  },
+  {
+    "type": "rule.enter",
+    "rule": "literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "simple_literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "numeric_literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digits",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digits",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "numeric_literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "string_literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "string_literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "boolean_literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "boolean_literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.fail",
+    "rule": "simple_literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.fail",
+    "rule": "literal",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 2
+  },
+  {
+    "type": "rule.enter",
+    "rule": "function_invocation",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.enter",
+    "rule": "_function_invocation_expression_",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start_char",
+    "result": "a",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start",
+    "result": [
+      "a",
+      []
+    ],
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.match",
+    "rule": "additional_name_symbols",
+    "result": ".",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start_char",
+    "result": "b",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part_char",
+    "result": "b",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part",
+    "result": [
+      "b"
+    ],
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.match",
+    "rule": "additional_name_symbols",
+    "result": ".",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start_char",
+    "result": "c",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part_char",
+    "result": "c",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part",
+    "result": [
+      "c"
+    ],
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.enter",
+    "rule": "path_expression",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.enter",
+    "rule": "_path_expression_",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start_char",
+    "result": "a",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start",
+    "result": [
+      "a",
+      []
+    ],
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.match",
+    "rule": "additional_name_symbols",
+    "result": ".",
+    "location": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start_char",
+    "result": "b",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part_char",
+    "result": "b",
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part",
+    "result": [
+      "b"
+    ],
+    "location": {
+      "start": {
+        "offset": 2,
+        "line": 1,
+        "column": 3
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.match",
+    "rule": "additional_name_symbols",
+    "result": ".",
+    "location": {
+      "start": {
+        "offset": 3,
+        "line": 1,
+        "column": 4
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_start_char",
+    "result": "c",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part_char",
+    "result": "c",
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.match",
+    "rule": "name_part",
+    "result": [
+      "c"
+    ],
+    "location": {
+      "start": {
+        "offset": 4,
+        "line": 1,
+        "column": 5
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_start_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.enter",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 10
+  },
+  {
+    "type": "rule.fail",
+    "rule": "digit",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 9
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part_char",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name_part",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.enter",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 8
+  },
+  {
+    "type": "rule.fail",
+    "rule": "additional_name_symbols",
+    "location": {
+      "start": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      },
+      "end": {
+        "offset": 5,
+        "line": 1,
+        "column": 6
+      }
+    },
+    "indentLevel": 7
+  },
+  {
+    "type": "rule.fail",
+    "rule": "name",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 6
+  },
+  {
+    "type": "rule.fail",
+    "rule": "_path_expression_",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 5
+  },
+  {
+    "type": "rule.fail",
+    "rule": "path_expression",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 4
+  },
+  {
+    "type": "rule.fail",
+    "rule": "_function_invocation_expression_",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 3
+  },
+  {
+    "type": "rule.fail",
+    "rule": "function_invocation",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 2
+  },
+  {
+    "type": "rule.fail",
+    "rule": "textual_expression",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 1
+  },
+  {
+    "type": "rule.fail",
+    "rule": "start",
+    "location": {
+      "start": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      },
+      "end": {
+        "offset": 0,
+        "line": 1,
+        "column": 1
+      }
+    },
+    "indentLevel": 0
+  }
+]
