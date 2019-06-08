@@ -8,7 +8,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pegjs --trace -o parser.js test.pegjs",
     "start": "node index.js"
   },
   "keywords": [],
