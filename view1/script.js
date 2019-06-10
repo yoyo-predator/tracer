@@ -84,7 +84,7 @@ function getTdElement(startCol, endCol, type, tr) {
         var getTd = document.getElementById('r1c' + startCol);
         highlightInTableColor(type, getTd, tr);
     } else if (endColumn - startColumn > 0 && endColumn <= inputLength) {
-        for (var i = startColumn; i <= endColumn; i++) {
+        for (var i = startColumn; i < endColumn; i++) {
             var getTd = document.getElementById('r1c' + i.toString());
             highlightInTableColor(type, getTd, tr);
         }
