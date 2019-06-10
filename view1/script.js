@@ -80,15 +80,12 @@ function prevButton() {
 function getTdElement(startCol, endCol, type, tr) {
     var startColumn = Number(startCol);
     var endColumn = Number(endCol);
-    if ((endColumn - startColumn === 0 || endColumn - startColumn === 1) && endColumn <= inputLength) {
-        var getTd = document.getElementById('r1c' + startCol);
-        highlightInTableColor(type, getTd, tr);
-    } else if (endColumn - startColumn > 0 && endColumn <= inputLength) {
+    if (endColumn < inputLength) {
         for (var i = startColumn; i <= endColumn; i++) {
             var getTd = document.getElementById('r1c' + i.toString());
             highlightInTableColor(type, getTd, tr);
         }
-    } else if (endColumn > inputLength && startColumn <= inputLength) {
+    } else if (endColumn > inputLength && startColumn < inputLength) {
         var getTd = document.getElementById('r1c' + startCol);
         highlightInTableColor(type, getTd, tr);
     } else {
