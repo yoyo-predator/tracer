@@ -19,26 +19,37 @@ function getTable3() {
     max = traceJson.length;
 
     for (var i = 0; i < traceJson.length; i++) {
+        var label = document.createElement("label");
+        label.setAttribute("class", "container");
+        var inp = document.createElement("input");
+        var span = document.createElement("span");
+        inp.setAttribute("type", "radio");
+        inp.setAttribute("name", "radioCheck");
+        span.setAttribute("class", "checkmark");
+        label.appendChild(inp);
+        label.appendChild(span);
         var table = document.getElementById("tbody3");
         var row = table.insertRow(i);
-        var cell0 = row.insertCell(0)
-        var cell1 = row.insertCell(1);
+        var cell0 = row.insertCell(0);
+        var cell1 = row.insertCell(1)
         var cell2 = row.insertCell(2);
         var cell3 = row.insertCell(3);
         var cell4 = row.insertCell(4);
         var cell5 = row.insertCell(5);
         var cell6 = row.insertCell(6);
+        var cell7 = row.insertCell(7);
 
-        var space = "*";
+        var space = "&#9775";
         space = space.repeat(traceJson[i].indentLevel);
 
-        cell0.innerHTML = i + 1;
-        cell1.innerHTML = traceJson[i].location.start.line;
-        cell2.innerHTML = traceJson[i].location.start.column;
-        cell3.innerHTML = traceJson[i].location.end.line;
-        cell4.innerHTML = traceJson[i].location.end.column;
-        cell5.innerHTML = traceJson[i].type;
-        cell6.innerHTML = space.concat(traceJson[i].rule);
+        cell0.append(label);
+        cell1.innerHTML = i + 1;
+        cell2.innerHTML = traceJson[i].location.start.line;
+        cell3.innerHTML = traceJson[i].location.start.column;
+        cell4.innerHTML = traceJson[i].location.end.line;
+        cell5.innerHTML = traceJson[i].location.end.column;
+        cell6.innerHTML = traceJson[i].type;
+        cell7.innerHTML = space.concat(traceJson[i].rule);
         row.setAttribute("id", i + 1);
         row.setAttribute("class", "test");
         if (traceJson[i].type == 'rule.match') {
@@ -60,10 +71,15 @@ function nextButton() {
         }
         highlightInTable(selected);
         var tr = document.getElementById(selected);
-        if (selected % 12 == 0) {
+        if (selected % 11 == 0) {
             tr.scrollIntoView();
         }
     }
+}
+
+function currentButton() {
+    var tr = document.getElementById(selected);
+    tr.scrollIntoView();
 }
 
 function prevButton() {
@@ -77,11 +93,41 @@ function prevButton() {
     }
 }
 
+function exitButton() {
+    navigate("rule.match");
+}
+
+function enterButton() {
+    navigate("rule.enter");
+}
+
+function navigate(rule) {
+    if (selected >= 1) {
+        var prevTr = document.getElementById(selected);
+        prevTr.removeAttribute("selected");
+        var tr = document.getElementById(selected);
+        var str = tr.childNodes[7].innerHTML;
+        var xpath = `//*[@id="t3"]/tbody/tr/td[text()="${rule}"]/following-sibling::td[text()='${str}']`;
+        var matchingElement = document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+        if (!matchingElement) {
+            return navigate("rule.fail");
+        }
+        var newTr = matchingElement.parentNode;
+        selected = Number(newTr.getAttribute("id"))
+        highlightInTable(selected);
+        newTr.scrollIntoView();
+    }
+}
+
 function getTdElement(startCol, endCol, type, tr) {
     var startColumn = Number(startCol);
     var endColumn = Number(endCol);
     if (endColumn < inputLength) {
-        for (var i = startColumn; i <= endColumn; i++) {
+        if(startColumn == endColumn) {
+            var getTd = document.getElementById('r1c' + startColumn.toString());
+            highlightInTableColor(type, getTd, tr);
+        }
+        for (var i = startColumn; i < endColumn; i++) {
             var getTd = document.getElementById('r1c' + i.toString());
             highlightInTableColor(type, getTd, tr);
         }
@@ -96,9 +142,11 @@ function getTdElement(startCol, endCol, type, tr) {
 function highlightInTable(ele) {
     removeSelectedAttr(document.getElementsByClassName("tdClass"));
     var tr = document.getElementById(ele);
-    var startCol = tr.childNodes[2].innerHTML;
-    var endCol = tr.childNodes[4].innerHTML;
-    var type = tr.childNodes[5].innerHTML;
+    var radio = ((tr.childNodes[0]).childNodes[0]).childNodes[0];
+    radio.checked = true;
+    var startCol = tr.childNodes[3].innerHTML;
+    var endCol = tr.childNodes[5].innerHTML;
+    var type = tr.childNodes[6].innerHTML;
     getTdElement(startCol, endCol, type, tr);
 }
 
@@ -109,7 +157,7 @@ function highlightInTableColor(type, getTd, tr) {
     } else if (type === 'rule.fail') {
         tr.setAttribute("selected", "3", 0);
         getTd.setAttribute('selected', '3', 0);
-    } else if(selected < max && getTd){
+    } else if (selected < max && getTd) {
         tr.setAttribute("selected", "1", 0);
         getTd.setAttribute('selected', '1', 0);
     } else {
