@@ -187,19 +187,29 @@ function trace() {
     var text = completeObj.input;
     inputLength = text.length;
 
+
     document.getElementById('mainDiv').style.display = 'none';
     document.getElementById('traceDiv').style.display = 'block';
     var tr = document.createElement("tr");
-    for (var i = 0; i < text.length; i++) {
+    var tr0 = document.createElement("tr");
+    for (var i = 0; i < inputLength; i++) {
+        // for table1
         var td = document.createElement("td");
         td.setAttribute("id", "r1c" + (i + 1), 0);
         td.setAttribute("class", "tdClass");
         var tdNode = document.createTextNode(text[i]);
         td.appendChild(tdNode);
         tr.appendChild(td);
+        //for table0
+        var td0 = document.createElement("td");
+        var tdNode0 = document.createTextNode(i+1);
+        td0.appendChild(tdNode0);
+        tr0.appendChild(td0);
     }
     getTable3();
     setTimeout(() => {
+        var table0 = document.getElementById("t0");
+        table0.appendChild(tr0);
         var table1 = document.getElementById("t1");
         table1.appendChild(tr);
     }, 100);
