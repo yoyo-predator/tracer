@@ -19,6 +19,7 @@ function getTable3() {
     max = traceJson.length;
 
     for (var i = 0; i < traceJson.length; i++) {
+        //for first cell radio button
         var label = document.createElement("label");
         label.setAttribute("class", "container");
         var inp = document.createElement("input");
@@ -28,6 +29,8 @@ function getTable3() {
         span.setAttribute("class", "checkmark");
         label.appendChild(inp);
         label.appendChild(span);
+
+        //
         var table = document.getElementById("tbody3");
         var row = table.insertRow(i);
         var cell0 = row.insertCell(0);
@@ -71,15 +74,13 @@ function nextButton() {
         }
         highlightInTable(selected);
         var tr = document.getElementById(selected);
-        if (selected % 11 == 0) {
-            tr.scrollIntoView();
-        }
+        tr.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
     }
 }
 
 function currentButton() {
     var tr = document.getElementById(selected);
-    tr.scrollIntoView();
+    tr.scrollIntoView({behavior: "smooth", block: "nearest", inline: "nearest"});
 }
 
 function prevButton() {
@@ -89,7 +90,7 @@ function prevButton() {
         selected -= 1;
         highlightInTable(selected);
         var tr = document.getElementById(selected);
-        tr.scrollIntoView();
+        tr.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
     }
 }
 
@@ -115,7 +116,7 @@ function navigate(rule) {
         var newTr = matchingElement.parentNode;
         selected = Number(newTr.getAttribute("id"))
         highlightInTable(selected);
-        newTr.scrollIntoView();
+        newTr.scrollIntoView({behavior: "smooth", block: "nearest", inline: "nearest"});
     }
 }
 
@@ -181,37 +182,33 @@ function clearFields() {
     document.getElementById('textarea2').value = '';
 }
 
+function getTable1(text) {
+    var table1 = document.getElementById("t1");
+    var indexRow = table1.insertRow(0);
+    var textRow = table1.insertRow(1);
+    for (var i = 0; i < inputLength; i++) {
+        //for table0
+        var indexCell = indexRow.insertCell(i);
+        indexCell.setAttribute("style", "border:none")
+        indexCell.innerHTML = i+1;
+        // for table1
+        var textCell = textRow.insertCell(i);
+        textCell.innerHTML = text[i]
+    }
+}
+
 function trace() {
     var completeObj = JSON.parse(document.getElementById('textarea1').value);
     traceJson = completeObj.obj;
     var text = completeObj.input;
     inputLength = text.length;
 
-
     document.getElementById('mainDiv').style.display = 'none';
     document.getElementById('traceDiv').style.display = 'block';
-    var tr = document.createElement("tr");
-    var tr0 = document.createElement("tr");
-    for (var i = 0; i < inputLength; i++) {
-        // for table1
-        var td = document.createElement("td");
-        td.setAttribute("id", "r1c" + (i + 1), 0);
-        td.setAttribute("class", "tdClass");
-        var tdNode = document.createTextNode(text[i]);
-        td.appendChild(tdNode);
-        tr.appendChild(td);
-        //for table0
-        var td0 = document.createElement("td");
-        var tdNode0 = document.createTextNode(i+1);
-        td0.appendChild(tdNode0);
-        tr0.appendChild(td0);
-    }
-    getTable3();
+    
     setTimeout(() => {
-        var table0 = document.getElementById("t0");
-        table0.appendChild(tr0);
-        var table1 = document.getElementById("t1");
-        table1.appendChild(tr);
+        getTable1(text);
+        getTable3();
     }, 100);
 
 }
@@ -223,9 +220,11 @@ function trace() {
 function viewMain() {
     document.getElementById('mainDiv').style.display = 'block';
     document.getElementById('traceDiv').style.display = 'none';
+    (document.getElementById('t1')).innerHTML = '';
 }
 
 function viewTrace() {
     document.getElementById('mainDiv').style.display = 'none';
     document.getElementById('traceDiv').style.display = 'block';
+    trace();
 }
